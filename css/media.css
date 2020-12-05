@@ -1,0 +1,135 @@
+@media (max-width: 1200px) {
+    .header__logo {
+        margin-left: -9%;
+    }
+    .right-line {
+        left: 140px;
+    }
+    .header__main-phones {
+        right: 129px;
+    }
+    .phones {
+        width: 180px;
+    }
+    .header__main-buttons {
+        left: 104px;
+    }
+    .header__buttons {
+        margin-left: 4px;
+        margin-right: 2px;
+    }
+}
+
+@media (max-width: 999px) {
+    .header__lines {
+        display: none;
+    }
+    .around-clock-phone {
+        margin-top: -38px;
+        margin-right: -186px;
+    }
+    .viber-whatsup-phone {
+        margin-top: 8px;
+    }
+    .header__buttons:first-of-type {
+        margin-top: -36px;
+    }
+    .header__buttons:last-of-type {
+        margin-left: -188px;
+        margin-top: 7px;
+    }
+}
+
+@media (max-width: 935px) {
+    .around-clock-phone {
+        margin-left: 90px;
+    }
+    .header_main-buttons {
+        margin-right: 195px;
+    }
+}
+
+@media (max-width: 640px) {
+    .header__image {
+        margin-left: 100%;
+    }
+    .header__main {
+        margin-left: 112%;
+    }
+    .header__main-phones {
+        right: 115px;
+    }
+    .header__main-buttons {
+        left: -306px;
+        top: 90px;
+    }
+    .header__buttons:last-of-type {
+        margin-left: 10px;
+        margin-top: -36px;
+    }
+    .phone-number {
+        font-size: 16px;
+    }
+    .phone-time {
+        margin-left: 43px !important;
+        font-size: 12px !important;
+    }
+    .phone-line {
+        display: none;
+    }
+}
+
+@media (max-width: 460px) {
+    .header__buttons {
+        margin-left: 17px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 405px) {
+    .header__logo {
+        width: 160px;
+        margin-left: 6%;
+    }
+    .header__main {
+        margin-left: 160%;
+    }
+    .around-clock-phone {
+        margin: 10px -24px 0 0;
+    }
+    .viber-whatsup-phone {
+        display: none;
+    }
+    .header__buttons {
+        margin-left: 12px;
+    }
+    .header__menu {
+        margin-top: 135px;
+    }
+}
+
+@media (max-width: 355px) {
+    .header__main-phones {
+        right: 132px;
+    }
+    .header__logo {
+        margin-left: -6%;
+    }
+    .header__buttons {
+        margin-left: 25px;
+        width: 140px;
+    }
+}
+
+@media (max-width: 336px) {
+    .header__buttons {
+        margin-left: 32px;
+    }
+    .phone-number {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .phone-time {
+        margin-left: 46px !important;
+    }
+}

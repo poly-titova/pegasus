@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Romul-Regular";
+    src: url("../fonts/Romul-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2f2c34;
+}
+
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 158px;
+}
+
+.header__image {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    position: relative;
+    margin-top: 26px;
+}
+
+.header__lines {
+    position: absolute;
+    width: 548px;
+    height: 1px;
+    z-index: 2;
+    background-color: #2f2c34;
+}
+
+.header__logo {
+    margin-left: 17px;
+    margin-top: -10px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.left-line {
+    right: 159px;
+}
+
+.right-line {
+    left: 175px;
+}
+
+.header__main {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: -43px;
+}
+
+
+/* header-phones */
+
+.header__main-phones {
+    display: flex;
+    position: absolute;
+    flex-wrap: nowrap;
+    right: 117px;
+    top: -2px;
+}
+
+.phones {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 35px;
+}
+
+.phone-number {
+    font-family: "Montserrat-Medium";
+    font-size: 18px;
+    margin-top: -1px;
+    word-spacing: 1px;
+    text-decoration: none;
+    color: #2f2c34;
+}
+
+.right-line {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.phone-time {
+    font-family: "Montserrat-Medium";
+    font-size: 13px;
+    color: #d0aa8c;
+    word-spacing: 1.75px;
+}
+
+.around-clock-phone .phone-time {
+    font-size: 14px;
+}
+
+.phone-line {
+    margin-left: 4px;
+    width: 39px;
+    height: 1px;
+    background-color: #d0aa8c;
+}
+
+.viber-whatsup-phone .phone-line {
+    margin-left: 8px;
+}
+
+
+/* header-buttons */
+
+.header__main-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    left: 178px;
+}
+
+.header__buttons {
+    background-color: #ffffff;
+    border: 1px solid black;
+    width: 186px;
+    height: 30px;
+    margin-left: 19px;
+    margin-right: 6px;
+}
+
+.header__buttons:hover {
+    background-color: #d0aa8c;
+    border: 1px solid #d0aa8c;
+    color: #ffffff;
+}
+
+.header__buttons_font {
+    font-family: "Montserrat-Medium";
+    font-size: 16px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
