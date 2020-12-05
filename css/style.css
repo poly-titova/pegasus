@@ -589,12 +589,16 @@ footer {
     border-left: 2px solid #8b8c8c;
 }
 
-.vertical-footer-line.second-l {
+.vertical-footer-line .second-line {
     margin-left: 4px;
 }
 
 .info__cars {
     width: 245px;
+}
+
+.info__services {
+    width: 257px;
 }
 
 .footer-line {
@@ -604,6 +608,10 @@ footer {
     width: 68px;
     height: 2px;
     background-color: #d0aa8c;
+}
+
+.info__services {
+    margin-left: 81px;
 }
 
 .footer__copyright {

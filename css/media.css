@@ -39,6 +39,10 @@
     .info__cars {
         width: 185px;
     }
+    .info__services {
+        margin-left: 15px;
+        width: 190px;
+    }
     .footer__block {
         align-items: center;
     }
@@ -140,6 +144,10 @@
     }
     .info__cars {
         margin-left: 17px;
+    }
+    .info__services {
+        margin-top: -169px;
+        margin-left: 290px;
     }
     .footer-line {
         margin-top: 8px;
@@ -243,8 +251,8 @@
     .footer__block {
         margin-left: 0;
     }
-    .footer__copyright {
-        margin-left: 8px;
+    .info__services {
+        margin-left: 235px;
     }
 }
 
@@ -279,7 +287,8 @@
     footer {
         height: 850px;
     }
-    .info__cars {
+    .info__cars,
+    .info__services {
         margin-top: 15px;
         margin-left: -15px;
     }
