@@ -593,12 +593,24 @@ footer {
     margin-left: 4px;
 }
 
+.vertical-footer-line-long {
+    width: 2px;
+    height: 207px;
+    margin-left: 1px;
+    margin-top: 1px;
+    border-left: 1px solid #8b8c8c;
+}
+
 .info__cars {
     width: 245px;
 }
 
 .info__services {
     width: 257px;
+}
+
+.info__about-us {
+    width: 237px;
 }
 
 .footer-line {
@@ -610,7 +622,8 @@ footer {
     background-color: #d0aa8c;
 }
 
-.info__services {
+.info__services,
+.info__about-us {
     margin-left: 81px;
 }
 
