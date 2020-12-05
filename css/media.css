@@ -18,6 +18,15 @@
         margin-left: 4px;
         margin-right: 2px;
     }
+    .menu-button {
+        width: 16.4%;
+    }
+    .menu-button_font {
+        margin-left: 25%;
+    }
+    .contacts-button .menu-button_font {
+        margin-right: 12%;
+    }
 }
 
 @media (max-width: 999px) {
@@ -47,6 +56,28 @@
     .header_main-buttons {
         margin-right: 195px;
     }
+    .menu-button_font {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 800px) {
+    .menu-button_font {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__menu {
+        justify-content: flex-start;
+    }
+    .short-menu {
+        display: block;
+        margin-left: 40px;
+    }
+    .header__menu-buttons {
+        display: none;
+    }
 }
 
 @media (max-width: 640px) {
@@ -71,11 +102,23 @@
         font-size: 16px;
     }
     .phone-time {
-        margin-left: 43px !important;
-        font-size: 12px !important;
+        margin-left: 43px;
+        font-size: 12px;
     }
     .phone-line {
         display: none;
+    }
+    .header__menu {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 540px) {
+    .short-menu {
+        margin-left: 12px;
+    }
+    .pop-up-menu {
+        width: 110%;
     }
 }
 
@@ -83,6 +126,18 @@
     .header__buttons {
         margin-left: 17px;
         width: 160px;
+    }
+    .menu-button {
+        width: 5%;
+        height: 100%;
+    }
+    .menu-button_font {
+        font-family: "Montserrat-Regular";
+        font-size: 9px;
+    }
+    .main-button .menu-button_font,
+    .contacts-button .menu-button_font {
+        margin-top: 3px;
     }
 }
 
@@ -119,6 +174,12 @@
         margin-left: 25px;
         width: 140px;
     }
+    .header__menu {
+        height: 49px;
+    }
+    .short-menu_line:last-of-type {
+        display: none;
+    }
 }
 
 @media (max-width: 336px) {
@@ -130,6 +191,6 @@
         margin-left: 10px;
     }
     .phone-time {
-        margin-left: 46px !important;
+        margin-left: 46px;
     }
 }
