@@ -48,16 +48,20 @@
     .card__text {
         letter-spacing: 0;
     }
-    .first-couple .first-card {
+    .first-couple .first-card,
+    .second-couple .first-card {
         margin-left: -70px;
     }
-    .first-couple .second-card {
+    .first-couple .second-card,
+    .second-couple .second-card {
         margin-left: -70px;
     }
-    .first-couple .first-card .picture {
+    .first-couple .first-card .picture,
+    .second-couple .first-card .picture {
         margin-left: -70px;
     }
-    .first-couple .second-card .picture {
+    .first-couple .second-card .picture,
+    .second-couple .second-card .picture {
         margin-left: 70px;
     }
 }
