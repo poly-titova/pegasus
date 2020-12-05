@@ -49,19 +49,23 @@
         letter-spacing: 0;
     }
     .first-couple .first-card,
-    .second-couple .first-card {
+    .second-couple .first-card,
+    .third-couple .first-card {
         margin-left: -70px;
     }
     .first-couple .second-card,
-    .second-couple .second-card {
+    .second-couple .second-card,
+    .third-couple .second-card {
         margin-left: -70px;
     }
     .first-couple .first-card .picture,
-    .second-couple .first-card .picture {
+    .second-couple .first-card .picture,
+    .third-couple .first-card .picture {
         margin-left: -70px;
     }
     .first-couple .second-card .picture,
-    .second-couple .second-card .picture {
+    .second-couple .second-card .picture,
+    .third-couple .second-card .picture {
         margin-left: 70px;
     }
 }
