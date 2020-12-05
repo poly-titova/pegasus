@@ -36,6 +36,16 @@
     .second-card {
         margin-left: 0.5%;
     }
+    .info__cars {
+        width: 185px;
+    }
+    .footer__block {
+        align-items: center;
+    }
+    .footer__copyright {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
 }
 
 @media (min-width: 1041px) and (max-width: 1200px) {
@@ -111,6 +121,33 @@
 @media (max-width: 800px) {
     .menu-button_font {
         margin-left: 15%;
+    }
+    footer {
+        height: 430px;
+        background: url('../img/footer.png') #040404 no-repeat;
+    }
+    .footer__block {
+        margin-top: 10px;
+    }
+    .footer__info {
+        flex-direction: column;
+    }
+    .footer__type {
+        margin-top: 2px;
+    }
+    .vertical-footer-line {
+        display: none;
+    }
+    .info__cars {
+        margin-left: 17px;
+    }
+    .footer-line {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .footer__copyright {
+        font-size: 10px;
+        margin-top: 10px;
     }
 }
 
@@ -203,6 +240,12 @@
         margin-left: 0;
         letter-spacing: -0.45px;
     }
+    .footer__block {
+        margin-left: 0;
+    }
+    .footer__copyright {
+        margin-left: 8px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -232,6 +275,13 @@
     .card__text {
         line-height: 12px;
         font-size: 2vw;
+    }
+    footer {
+        height: 850px;
+    }
+    .info__cars {
+        margin-top: 15px;
+        margin-left: -15px;
     }
 }
 
