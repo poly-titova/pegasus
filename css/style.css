@@ -434,3 +434,92 @@ header {
     word-spacing: 3.4px;
     margin-left: -8px;
 }
+
+
+/* block-images */
+
+.block-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1170px;
+    margin-top: 48px;
+    margin-left: 15px;
+}
+
+.block-images__couple {
+    display: flex;
+    flex-direction: row;
+}
+
+.block__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 548px;
+    width: 555px;
+}
+
+.first-card {
+    margin-right: 30px;
+}
+
+.second-card {
+    margin-left: 30px;
+}
+
+.picture {
+    width: 555px;
+    height: 235px;
+}
+
+.card__title {
+    font-family: "Romul-Regular";
+    font-size: 25px;
+    margin-top: 21px;
+    margin-left: 2px;
+    letter-spacing: 1.5px;
+}
+
+.first-couple .second-card .card__title {
+    letter-spacing: -0.8px;
+}
+
+.card-line {
+    width: 90px;
+    height: 1px;
+    margin-top: 21px;
+    margin-right: 2px;
+    background-color: #d0aa8c;
+}
+
+.card__text {
+    font-family: "Montserrat-Medium";
+    font-size: 12px;
+    margin-top: 22px;
+    letter-spacing: 0.33px;
+    text-align: center;
+}
+
+.card__button {
+    background-color: transparent;
+    border: 2px solid black;
+    width: 275px;
+    height: 43px;
+    margin-top: 27px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.card__button:hover {
+    background-color: #d0aa8c;
+    border: 2px solid #d0aa8c;
+    color: #ffffff;
+}
+
+.card__button_font {
+    font-family: "Montserrat-Medium";
+    font-size: 15px;
+    margin-left: 1px;
+    letter-spacing: 0.5px;
+}
