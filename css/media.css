@@ -49,6 +49,9 @@
     .info__about-us {
         width: 170px;
     }
+    .info__contacts {
+        margin-left: 20px;
+    }
     .footer__block {
         align-items: center;
     }
@@ -159,6 +162,10 @@
     .info__about-us {
         margin-top: 10px;
     }
+    .info__contacts {
+        margin-left: 271px;
+        margin-top: -178px;
+    }
     .footer-line {
         margin-top: 8px;
         margin-bottom: 8px;
@@ -264,6 +271,9 @@
     .info__services {
         margin-left: 235px;
     }
+    .info__contacts {
+        margin-left: 230px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -299,7 +309,8 @@
     }
     .info__cars,
     .info__services,
-    .info__about-us {
+    .info__about-us,
+    .info__contacts {
         margin-top: 15px;
         margin-left: -15px;
     }
