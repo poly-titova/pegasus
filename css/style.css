@@ -328,3 +328,109 @@ header {
 .contacts-button .menu-button_font {
     margin-right: -7px;
 }
+
+
+/* location */
+
+.location {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.location__main-dir,
+.location__events-dir,
+.location__excursions-dir {
+    width: 80px;
+    height: 10px;
+    display: flex;
+}
+
+.location__events-dir {
+    border-left: 1px solid black;
+}
+
+.location__excursions-dir {
+    border-left: 1px solid #d0aa8c;
+}
+
+.location__main-dir-text,
+.location__events-dir-text,
+.location__excursions-dir-text {
+    font-family: "Montserrat-Medium";
+    font-size: 10.5px;
+    margin-left: 9px;
+    margin-top: -2px;
+}
+
+.location__main-dir-text {
+    margin-left: 16px;
+}
+
+.location__excursions-dir-text {
+    color: #d0aa8c;
+    margin-left: 4px;
+}
+
+
+/* tagline */
+
+.tagline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1170px;
+    border-top: 1px solid #e7e8e9;
+}
+
+.tagline__name-string {
+    font-family: "Montserrat-Regular";
+    font-size: 17px;
+    margin-top: 26px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+
+.tagline__excursions {
+    margin: 4px 0 0 15px;
+    display: flex;
+}
+
+.tagline__excursions-string {
+    font-family: "Romul-Regular";
+    font-size: 37.5px;
+    margin-left: 13px;
+}
+
+.excursions-line {
+    margin-top: 22px;
+    width: 80px;
+    height: 2px;
+    background-color: #d0aa8c;
+}
+
+.excursions-line:first-of-type {
+    margin-right: 1px;
+}
+
+.excursions-line:last-of-type {
+    margin-left: 16px;
+}
+
+.tagline__text {
+    font-family: "Montserrat-Medium";
+    font-size: 12.5px;
+    margin-top: 26px;
+    margin-left: 22px;
+    word-spacing: 2.7px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.tagline__text span {
+    line-height: 21px;
+    word-spacing: 3.4px;
+    margin-left: -8px;
+}

@@ -78,6 +78,16 @@
     .header__menu-buttons {
         display: none;
     }
+    .tagline__name-string {
+        margin-top: 10px;
+    }
+    .tagline__text {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+        word-spacing: 0;
+        line-height: 15px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -111,6 +121,15 @@
     .header__menu {
         margin-top: 150px;
     }
+    .location {
+        margin-top: 64px;
+    }
+}
+
+@media (max-width: 580px) {
+    .tagline__text {
+        font-size: 9px;
+    }
 }
 
 @media (max-width: 540px) {
@@ -119,6 +138,10 @@
     }
     .pop-up-menu {
         width: 110%;
+    }
+    .tagline__text {
+        margin-left: 0;
+        letter-spacing: -0.45px;
     }
 }
 
@@ -161,6 +184,12 @@
     .header__menu {
         margin-top: 135px;
     }
+    .location {
+        margin-top: 50px;
+    }
+    .excursions-line {
+        display: none;
+    }
 }
 
 @media (max-width: 355px) {
@@ -179,6 +208,9 @@
     }
     .short-menu_line:last-of-type {
         display: none;
+    }
+    .location {
+        margin-top: 40px;
     }
 }
 
